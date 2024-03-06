@@ -1,0 +1,7 @@
+{
+  "name": "devdacticFoodUi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
