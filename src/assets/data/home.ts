@@ -1,27 +1,27 @@
 export const categories = [
   {
     text: 'Restaurants',
-    img: './c1.png',
+    img: 'assets/data/c1.png',
   },
   {
     text: 'Grocery',
-    img: './c2.png',
+    img: 'assets/data/c2.png',
   },
   {
     text: 'Offers',
-    img: './c3.png',
+    img: 'assets/data/c3.png',
   },
   {
     text: 'Pickup',
-    img: './c4.png',
+    img: 'assets/data/c4.png',
   },
   {
     text: 'HOP',
-    img: './c5.png',
+    img: 'assets/data/c5.png',
   },
   {
     text: 'Pharmacy',
-    img: './c6.png',
+    img: 'assets/data/c6.png',
   },
 ];
 

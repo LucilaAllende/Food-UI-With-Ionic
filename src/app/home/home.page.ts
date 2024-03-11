@@ -31,13 +31,13 @@ export class HomePage implements OnInit {
 						"id": 1,
 						"title": "Special Offer",
 						"description": "Get 20% off on selected items!",
-						"image": "offer.jpg"
+						"img": "../../assets/data/banner_highlight.jpg"
 					},
 					{
 						"id": 2,
 						"title": "New Arrivals",
 						"description": "Discover our latest menu additions!",
-						"image": "new.jpg"
+						"img": "../../assets/data/banner_highlight.jpg"
 					}
 				],
 				"featured": [
@@ -45,15 +45,19 @@ export class HomePage implements OnInit {
 						"id": 1,
 						"name": "Margherita Pizza",
 						"description": "Classic Italian pizza topped with tomatoes, mozzarella, and basil.",
+						"rating": "3.8 Good",
 						"price": 10.99,
-						"image": "margherita.jpg"
+						"distance": "2.7 km away",
+						"img": "https://f.roocdn.com/images/menu_items/5250429/item-image.jpg"
 					},
 					{
 						"id": 2,
 						"name": "Cheeseburger",
 						"description": "Juicy beef patty topped with melted cheese, lettuce, and tomato.",
+						"rating": "3.8 Good",
 						"price": 8.99,
-						"image": "cheeseburger.jpg"
+						"distance": "2.7 km away",
+						"img": "https://f.roocdn.com/images/menu_items/5250429/item-image.jpg"
 					}
 				]
 			}

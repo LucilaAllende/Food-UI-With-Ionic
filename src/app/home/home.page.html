@@ -7,18 +7,20 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <swiper-container>
-    <swiper-wrapper>
-      <swiper-slide>
-        <img src="https://via.placeholder.com/300" alt="slide 1">
-      </swiper-slide>
-      <swiper-slide>
-        <img src="https://via.placeholder.com/300" alt="slide 2">
-      </swiper-slide>
-      <swiper-slide>
-        <img src="https://via.placeholder.com/300" alt="slide 3">
-      </swiper-slide>
-    </swiper-wrapper>
-    <div class="swiper-pagination"></div>
+  <swiper-container [slidesPerView]="3.5" [spaceBetween]="10" [freeMode]="true" [slidesOffsetBefore]="11" >
+    <swiper-slide *ngFor="let categorie of categories">
+      <img [src]="categorie.img" />
+    </swiper-slide>
+  </swiper-container>
+  <swiper-container [slidesPerView]="1.05" [spaceBetween]="10" [centeredSlides]="true" [loop]="true" >
+    <swiper-slide *ngFor="let highlight of highlights">
+      <img [src]="highlight.img" />
+    </swiper-slide>
+  </swiper-container>
+  <ion-text color="dark"><b style="padding-left: 10px;">Featured</b></ion-text>
+  <swiper-container [slidesPerView]="1.2" [spaceBetween]="10" [freeMode]="true" >
+    <swiper-slide *ngFor="let feature of featured">
+      <img [src]="feature.img" />
+    </swiper-slide>
   </swiper-container>
 </ion-content>
